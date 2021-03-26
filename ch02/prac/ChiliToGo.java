@@ -7,9 +7,9 @@ public class ChiliToGo {
         int numOfAdult, numOfChild, adultPrice, childPrice, totalPrice;
         Scanner input = new Scanner(System.in);
         System.out.println("Enter number of adult's meal >>");
-        numOfChild = input.nextInt();
-        System.out.println("Enter number of child's meal");
         numOfAdult = input.nextInt();
+        System.out.println("Enter number of child's meal");
+        numOfChild = input.nextInt();
         adultPrice = numOfAdult * PRICE_OF_ADULT;
         childPrice = numOfChild * PRICE_OF_CHILD;
         totalPrice = adultPrice + childPrice;
