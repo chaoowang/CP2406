@@ -6,8 +6,8 @@ public class ChiliToGoProfit {
         final float PRICE_OF_CHILD = 4;
         final float COST_OF_ADULT = 4.35F;
         final float COST_OF_CHILD = 3.1F;
-        final float PROFIT_OF_ADULT = PRICE_OF_ADULT-COST_OF_ADULT;
-        final float PROFIT_OF_CHILD = PRICE_OF_CHILD-COST_OF_CHILD;
+        final float PROFIT_OF_ADULT = PRICE_OF_ADULT - COST_OF_ADULT;
+        final float PROFIT_OF_CHILD = PRICE_OF_CHILD - COST_OF_CHILD;
         int numOfAdult, numOfChild;
         float adultProfit, childProfit, totalProfit;
         Scanner input = new Scanner(System.in);
@@ -19,6 +19,6 @@ public class ChiliToGoProfit {
         childProfit = numOfChild * PROFIT_OF_CHILD;
         totalProfit = adultProfit + childProfit;
 
-        System.out.println("Profit for total adult's meal: $"+adultProfit+"\nProfit for total child's meal: $"+childProfit+"\nTotal profit: $"+totalProfit);
+        System.out.println("Profit for total adult's meal: $" + adultProfit + "\nProfit for total child's meal: $" + childProfit + "\nTotal profit: $" + totalProfit);
     }
 }
